@@ -1,0 +1,50 @@
+{
+  "name": "creem-framer-plugin",
+  "version": "1.0.0",
+  "author": "Heet Bhalodiya",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,css,scss,md}\"",
+    "preview": "vite preview",
+    "pack": "npx framer-plugin-tools@latest pack"
+  },
+  "dependencies": {
+    "framer-plugin": "^3",
+    "lucide-react": "^0.575.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "vite-plugin-mkcert": "^1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@stylistic/eslint-plugin": "^5.6.1",
+    "@tailwindcss/postcss": "^4.2.0",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@vitejs/plugin-react": "^4.3.1",
+    "@vitejs/plugin-react-swc": "^3",
+    "autoprefixer": "^10.4.24",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-import-resolver-typescript": "^4.4.4",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "globals": "^15.9.0",
+    "postcss": "^8.5.6",
+    "prettier": "3.7.4",
+    "prettier-plugin-tailwindcss": "^0.7.2",
+    "tailwindcss": "^4.2.0",
+    "typescript": "^5.3",
+    "typescript-eslint": "^8.0.1",
+    "vite": "^6",
+    "vite-plugin-framer": "^1"
+  }
+}
